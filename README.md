@@ -1,9 +1,7 @@
 
 # Whatslab
 
-<p align="center">
-    ![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
-</p>
+![Badge Finalizado](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
 Projeto de uma página inspirada no whatsapp, com opção de mudar o contato e podendo excluir mensagens com duplo clique em cima.
 
