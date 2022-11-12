@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ChatboxStyled = styled.section`
-  height: calc(100vh - 155px);
+  height: calc(100vh - 9.688rem);
   width: 100%;
-  min-width: 455px;
+  min-width: 24.563rem;
   background-color: #f1f4f7;
   display: flex;
   flex-direction: column;
@@ -18,8 +18,8 @@ export const CardMessage = styled.section`
     props.author === "Paula" ? "#61C554" : "#E8ECEF"};
   color: ${(props) => (props.author === "Paula" ? "white" : "black")};
   align-self: ${(props) => (props.author === "Paula" ? "flex-end" : "flex-start")};
-  min-width: 100px;
-  max-width: 300px;
+  min-width: 5rem;
+  max-width: 18.75rem;
   padding: 8px 10px;
   border-radius: 10px;
   cursor: pointer;

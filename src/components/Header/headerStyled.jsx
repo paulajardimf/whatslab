@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
   display: flex;
-  height: 72px;
+  height: 4.5rem;
   width: 100%;
-  min-width: 455px;
+  min-width: 24.563rem;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
@@ -13,7 +13,7 @@ export const HeaderStyled = styled.header`
 
   .container-icons {
     display: flex;
-    width: 134px;
+    width: 8.375rem;
     justify-content: space-between;
     align-items: flex-end;
   }
