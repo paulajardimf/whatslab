@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const HeaderStyled = styled.header`
   display: flex;
   height: 72px;
-  width: 593px;
-  display: flex;
+  width: 100%;
+  min-width: 455px;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
@@ -15,6 +15,7 @@ export const HeaderStyled = styled.header`
     display: flex;
     width: 134px;
     justify-content: space-between;
+    align-items: flex-end;
   }
   .icon {
     border-radius: 50%;
@@ -28,6 +29,7 @@ export const HeaderStyled = styled.header`
 export const Person = styled.div`
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   img {
     border-radius: 50%;
     height: 55px;

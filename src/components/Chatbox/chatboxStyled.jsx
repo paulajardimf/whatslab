@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const ChatboxStyled = styled.section`
-  height: calc(708px - 90px);
-  width: 593px;
+  height: calc(100vh - 155px);
+  width: 100%;
+  min-width: 455px;
   background-color: #f1f4f7;
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
   gap: 20px;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 0 20px;
 `;
 
@@ -15,12 +17,12 @@ export const CardMessage = styled.section`
   background-color: ${(props) =>
     props.author === "Paula" ? "#61C554" : "#E8ECEF"};
   color: ${(props) => (props.author === "Paula" ? "white" : "black")};
-  /* margin-left: ${(props) => (props.author === "Paula" ? "auto" : 0)}; */
   align-self: ${(props) => (props.author === "Paula" ? "flex-end" : "flex-start")};
   min-width: 100px;
   max-width: 300px;
   padding: 8px 10px;
   border-radius: 10px;
+  cursor: pointer;
 
   .sender {
     font-weight: 600;

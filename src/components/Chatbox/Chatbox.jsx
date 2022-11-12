@@ -30,7 +30,7 @@ export default function Chatbox(props) {
             <p>{message.time}</p>
             <img
               src={
-                message.person !== "Paula" ? `${checkGreen}` : `${checkWhite}`
+                message.person !== "Paula" ? `${checkWhite}` : `${checkGreen}`
               }
               alt="ticket"
             />

@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const FooterStyled = styled.footer`
   background-color: #f1f4f7;
   min-height: 90px;
-  width: 593px;
+  width: 100%;
+  min-width: 455px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +12,7 @@ export const FooterStyled = styled.footer`
   .container-input {
     background-color: white;
     min-height: 50px;
-    width: 487px;
+    width: calc(100% - 110px);
     border-radius: 60px;
     display: flex;
     align-items: center;
@@ -19,7 +20,7 @@ export const FooterStyled = styled.footer`
     box-shadow: 0 7px 7px #00000005;
     textarea {
       height: 30px;
-      width: 400px;
+      width: calc(100% - 100px);
       resize: none;
       border: none;
       font-weight: 400;
