@@ -18,7 +18,7 @@ Projeto de uma página inspirada no whatsapp, com opção de mudar o contato e p
 ## Tecnologias usadas:
 
 - ``React.js``
-- ``Next.js``
+- ``Vite.js``
 - ``Styled Components``
 
 ## Imagem do projeto:
